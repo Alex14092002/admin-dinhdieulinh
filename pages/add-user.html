@@ -197,6 +197,12 @@
                     <input type="text" class="form-control" id="chitiet8" placeholder="Link Detail8">
                   </div>
                 </div>
+                <div class="row mg-t-20">
+                  <label class="col-sm-4 form-control-label">Chi Tiết 9: <span class="tx-danger">*</span></label>
+                  <div class="col-sm-8 mg-t-10 mg-sm-t-0">
+                    <input type="text" class="form-control" id="chitiet9" placeholder="Link Detail9">
+                  </div>
+                </div>
                 <div class="form-layout-footer mg-t-30">
                   <button id="btn_luu" style="background-color: #E53371" class="btn btn-default mg-r-5">Sửa</button>
                   <a href="user.html"class="btn btn-secondary">Huỷ</a>
@@ -226,6 +232,7 @@
           detail6: document.querySelector("#chitiet6").value.trim(),
           detail7: document.querySelector("#chitiet7").value.trim(),
           detail8: document.querySelector("#chitiet8").value.trim(),
+          detail9: document.querySelector("#chitiet9").value.trim()
         }
         options = {
           method: 'POST',
